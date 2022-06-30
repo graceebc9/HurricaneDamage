@@ -20,20 +20,11 @@ This repository is split according to the structure of the write-up, with separa
 ├── LICENSE
 ├── README.md                   <- Main README.
 ├── settlement_segmentation     <- Settlement segmentation section.
-│   │
-│   ├── deepcluster             <- DeepCluster model as well as training and testing notebooks
-│   │
-│   ├── liunsupervised          <- Unsupervised feature learning - model building, training, testing          
-|   |
-|   └── randomforest            <- RF Classifier training + testing
-|
-├── change_detection            <- Change detection section.
-│   ├── archive                 <- Archive of old code for this section
-│   │
-│   ├── deep_change_detection   <- Code for the deep learning approach to change detection on Sentinel-2 data.
-│   │
-│   ├── ratio_method            <- Code for the image ratio methods including thresholding and U-Net classification
-|   |
-|   └── xbd_hi_res_attempt      <- Code for semantic change detection applied to high resolution data
-|
-└── exposure_quantification
+   │
+   ├── deepcluster             <- DeepCluster model as well as training and testing notebooks
+   │
+   ├── liunsupervised          <- Unsupervised feature learning - model building, training, testing          
+   |
+   └── randomforest            <- RF Classifier training + testing
+
+
