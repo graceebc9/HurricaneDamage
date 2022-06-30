@@ -1,6 +1,6 @@
 <img width="100" alt="Cam logo" src= https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png >          <img width="100" alt="RMS logo" src=https://www.burstorm.com/wp-content/uploads/RMS-logo-final.png>    
 
-# Repository for the Hurricane Damage Classification
+This is the repository for Grace Beaney Colverds AI4ER MRES project titled: 'A deep learning approach to post-hurrciane automatic damage classification'
 
 ## 1. Overview
 
@@ -18,13 +18,28 @@ This repository is split according to the structure of the write-up, with separa
 ## 2. Project Structure
 ```
 ├── LICENSE
-├── README.md                   <- Main README.
-├── settlement_segmentation     <- Settlement segmentation section.
-   │
-   ├── deepcluster             <- DeepCluster model as well as training and testing notebooks
-   │
-   ├── liunsupervised          <- Unsupervised feature learning - model building, training, testing          
-   |
-   └── randomforest            <- RF Classifier training + testing
+|
+├── README.md          <- The top-level README for developers using this project.
+|
+├── requirements       <- Directory containing the requirement files.
+│
+├── patch_generation             <- R scripts to read and tile geospatial data for subsequent analysis.
+│   │
+│   └── preprocessing  <- Scripts to convert raw RGB tiffs into tiled pngs, and to convert shapefiles to geojsons
+│
+├── src
+|   |                  
+│   └──          <- Notebook to carry out Bayesian optimisation on the parameters of the ITCfast algorithm
+|                         and script to run and evaluate ITCfast with the suggested parameters. 
+|
+├── models             <- Notebooks to train and test models
+|   |                  
+│   |── 5conv  <- Notebook to train, test and evaluate a Mask R-CNN model.
+|.  | 
+|   └-
+|   
+│
+|
+└── evaluation    <- Notebooks to test model
 
 
