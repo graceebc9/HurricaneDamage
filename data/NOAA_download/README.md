@@ -2,7 +2,7 @@
 # Accessing NOAA Aerial Imagery 
 NOAA High Resolution Aerial Imagery taken in the aftermath of hurricanes and severe storms is available to download manually [here](https://storms.ngs.noaa.gov/). 
 
-Alternatively, users can use the script NOAA_download/NOAA_download.py to download automatically the data locally or on Jasmin. 
+Alternatively, users can use the script NOAA_download.py to download automatically the data locally or on Jasmin. 
 
 If you need help in working out the date/run combo, to update the values within that script, copy the link address of the TIF that you wish to download to check the URL format. 
 
