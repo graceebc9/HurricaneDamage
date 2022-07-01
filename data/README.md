@@ -1,8 +1,7 @@
-NOAA High Resolution Aerial Imagery taken in the aftermath of hurricanes and severe storms is available to download manually [here](https://storms.ngs.noaa.gov/). 
+# Data Access and Dataset Preparation
 
-Alternatively, users can use the script NOAA_download/NOAA_download.py to download automatically the data locally or on Jasmin. 
+This section contains details how to access the NOAA aerial imagery, and the Patch Generation process. 
 
-If you need help in working out the date/run combo, to update the values within that script, copy the link address of the TIF that you wish to download to check the URL format. 
+NOAA_download gives info on accessing the NOAA data
 
-<img width="1225" alt="image" src="https://user-images.githubusercontent.com/91670329/176901533-981d9b0a-a518-4bf4-9c0f-37b466fca352.png">
-
+patch_generation contains the methodology for patch generation for completeness. We are not able to publish the damage labels and building footprints we received from RMS so this section is purely for context. The processed datasets are available for download at the following [Drive](https://drive.google.com/drive/folders/1a34p6M0DopPn3Dv1XgYuJiufT3AA09XA?usp=sharing)
