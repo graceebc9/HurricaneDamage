@@ -10,7 +10,7 @@ Patches will be logged on wandb both for test and validation images automaticall
 
 To train or finetune the Final model on your own data use the following [Colab Notebook](https://colab.research.google.com/drive/1M_XMjO6K1uJeCehBkYy9ijEa7eX9qDtb?usp=sharing). 
 
-To use the parameter sweep functionality, use the [param_sweeps] folder. 
+To use the parameter sweep functionality, use the following [Colab](https://colab.research.google.com/drive/1RriUfp3PLFGEc85iplnGGFxM1iDLL9z3#scrollTo=BgvZXW8uB7WW). 
 
 Your data will need to be in the folder structure, with each patch labelled with a numeric identifier e.g. 1234.tif. The datamodules provided will then set up a 80/20 split of the train data into train/validation.
 
