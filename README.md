@@ -32,6 +32,6 @@ Model architectures tested, details of which can be found in [model](https://git
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/91670329/177331946-7dd2de4f-fc30-4498-a93e-895746bf0257.png">
 
 
-The best performing model (model 2B) was then evaluated on 2a without finetuning and 2b with finetuning, and damage maps were created which can be found in [damage_map_generation/final_plots](https://github.com/graceebc9/HurricaneDamage/tree/main/damage_map_generation/final_plots)
+The best performing model (model 2B) was then evaluated on 2a without finetuning and 2b with finetuning. Users can generate their own damage maps and see our final damage maps in [damage_map_generation](https://github.com/graceebc9/HurricaneDamage/tree/main/damage_map_generation)
 
 
