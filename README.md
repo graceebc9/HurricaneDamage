@@ -34,4 +34,5 @@ Model architectures tested, details of which can be found in [model](https://git
 
 The best performing model (model 2B) was then evaluated on 2a without finetuning and 2b with finetuning. Users can generate their own damage maps and see our final damage maps in [damage_map_generation](https://github.com/graceebc9/HurricaneDamage/tree/main/damage_map_generation)
 
+Requirements for env to run GitHub can be found int [requirements](https://github.com/graceebc9/HurricaneDamage/tree/main/requirements), while various code and functions are stored in [src](https://github.com/graceebc9/HurricaneDamage/tree/main/src).
 
