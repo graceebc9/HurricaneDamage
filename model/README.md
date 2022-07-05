@@ -12,7 +12,7 @@ To train or finetune your the Final model on your own data use the following [Co
 Your data will need to be in the folder structure, with each patch labelled with a numeric identifier e.g. 1234.tif. The datamodules provided will then set up a 80/20 split of the train data into train/validation.
 
 you_datadir:
-train/damaged_Y
-train/damaged_N
-test/damaged_Y
-test/damaged_N
+-train/damaged_Y
+-train/damaged_N
+-test/damaged_Y
+-test/damaged_N
