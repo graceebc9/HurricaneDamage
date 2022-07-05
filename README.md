@@ -18,14 +18,19 @@ Patches are created per building footprint by first aligning building footprint 
 - 2a: a dataset containing all damaged buildings to test model on
 - 2b: 2a but first taking out 300 patches to quickly finetune model on before testing 
 
+The sizes of the datasets are given:
+
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/91670329/177331849-129668d8-39d0-4349-bd79-0988f0334359.png">
 
 
 
 We test 5 model architectures before training a final convolutional neural network to predict a label of 'damaged' or 'undamaged' per patch using dataset 1a and 1b. Predictions for each patch are then aggreagated to higher regional levels in order to create damage maps both at the block and census tract level. 
+
+Model architectures tested:
+
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/91670329/177331946-7dd2de4f-fc30-4498-a93e-895746bf0257.png">
 
 
-The best performing model is then evaluated on 2a without finetuning and 2b with finetuning, and damage maps created. 
+The best performing model (model 2B) is then evaluated on 2a without finetuning and 2b with finetuning, and damage maps created. 
 
 
